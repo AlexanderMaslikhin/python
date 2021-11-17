@@ -4,7 +4,7 @@ spending = float(input('Введите объем затрат в рублях:'
 profit = proceeds - spending
 
 if profit < 0:
-    print('Упс! Ваше фирма убыточна. Надо что то менять!')
+    print('Упс! Ваша фирма убыточна. Надо что то менять!')
 
 elif profit > 0:
     rent = profit / proceeds
@@ -14,4 +14,4 @@ elif profit > 0:
     print(f'Прибыль на одного сотрудника составляет {profit_per_employer} руб.')
 
 else:  # profit == 0
-    print('Прибыли нет но и убытков тоже нет. Работа ради работы???')
+    print('Прибыли нет, но и убытков тоже нет. Работа ради работы???')

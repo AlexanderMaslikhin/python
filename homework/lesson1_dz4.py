@@ -10,6 +10,6 @@ while num > 0:
         digit = num % 10
     num //= 10
 
-print(f'Самая большая цифора числа: {digit}')
+print(f'Самая большая цифра числа: {digit}')
 
 

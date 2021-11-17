@@ -5,7 +5,7 @@ current_dist = start_dist
 day_number = 1
 print(f'{day_number}-й день: {current_dist}')
 
-while current_dist <= target_dist:
+while current_dist < target_dist:
     current_dist *= 1.1
     day_number += 1
     print(f'{day_number}-й день: {current_dist}')

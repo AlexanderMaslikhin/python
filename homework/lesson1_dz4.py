@@ -5,7 +5,7 @@ num = int(input("Введите целое положительное число
 
 digit = 0
 
-while num > 0:
+while num:  # Можно было num > 0, но так лаконичнее, по правилу преобразования типов, если не 0, то True
     if digit < num % 10:
         digit = num % 10
     num //= 10

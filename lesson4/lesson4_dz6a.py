@@ -13,7 +13,7 @@ def main():
             if elem == end:
                 break
         print(numbers)
-    except:
+    except ValueError:
         print('Введены некорректные значения')
 
 

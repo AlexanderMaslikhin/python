@@ -17,7 +17,7 @@ def main():
     else:
         try:
             i = 4 if len(argv) >= 4 else 3
-            data = list(map(int, argv[1:i]))
+            data = list(map(float, argv[1:i]))
             print(f'Заработная плата: {salary(*data)}')
         except ValueError:
             print("Введены некорректные данные")

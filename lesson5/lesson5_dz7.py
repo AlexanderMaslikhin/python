@@ -13,7 +13,7 @@ def read_file(filename):
                 profit_sum += firms_profit[name]
                 good_firms_count += 1
 
-    return [firms_profit, {'average_profit': profit_sum/good_firms_count}]
+    return [firms_profit, {'average_profit': profit_sum/good_firms_count if good_firms_count != 0 else 0}]
 
 
 def export_json(filename, data):
